@@ -64,7 +64,7 @@ def edit_text(id):
         else:
             return render_template('edit_text.html', guestbook=guestbook)
     
-    # return redirect(url_for('guestbook'))
+    
     
 
 @app.route('/delete_text/<int:id>', methods=['GET', 'POST'])
